@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: 'home'
+  profiles:
+    active: '@activatedProfile@'
+server:
+  port: 8080
+
+jwt:
+  secret: 'S2FQZFNnVmtZcDNzNnY5eSRCJkUpSEBNYlFlVGhXbVpxNHQ3dyF6JUMqRi1KYU5kUmZValhuMnI1dTh4L0E/RA=='
+  token-validity: 1296000
